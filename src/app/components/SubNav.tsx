@@ -78,11 +78,11 @@ const SubNav = () => {
       <motion.ul variants={variants} className="flex flex-col   gap-[68px]">
         {navLink.map((link, i) => {
           return (
-            <motion.li variants={variantsChildren} key={i} className="nav-list">
+            <motion.li variants={variantsChildren} key={i} className="nav-list flex">
               <span className="mr-2">0{i + 1}.</span>
               <Link
                 onClick={closeMenu}
-                className="first-letter:capitalize  inline-block"
+                className="first-letter:capitalize  w-full inline-block"
                 href={link.url}
               >
                 {link.text}
