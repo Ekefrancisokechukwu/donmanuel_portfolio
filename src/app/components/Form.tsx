@@ -17,7 +17,7 @@ const Form = () => {
           toast.error(` There was an error`);
         }
       }}
-      className="sm:mt-0 mt-7 xl:w-[45rem] md:w-[40rem] sm:w-full   lg:bg-[#ffffff19] lg:px-12 lg:py-10"
+      className="sm:mt-0 mt-7 xl:w-[45rem] md:w-[40rem] sm:w-full   lg:bg-[#161616] lg:px-12 lg:py-10"
     >
       <div className="form-group">
         <label htmlFor="name" className="capitalize form-label">
