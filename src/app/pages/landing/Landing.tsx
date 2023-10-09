@@ -14,7 +14,7 @@ const Landing = () => {
           transition={{ duration: 0.2, type: "spring", stiffness: 40 }}
           className="sm:text-[52px] text-[30px] sm:leading-[72px] leading-[38px] md:max-w-[953px] mx-auto"
         >
-          Talented product and web3 designer with over year+ of experience
+          Talented product and web3 designer with over 2 year+ of experience
           creating intuitive and engaging user interfaces for various digital
           products
         </motion.p>
