@@ -16,7 +16,7 @@ const Skills = () => {
         Skills
       </motion.h1>
 
-      <div className="mt-16 flex flex-wrap gap-x-[25px]  gap-y-[49px] justify-center ">
+      <div className="mt-16 flex flex-wrap gap-x-[25px]  sm:gap-y-[49px] gap-y-[17px] justify-center ">
         {skills.map((skill, i) => (
           <article
             key={i}
