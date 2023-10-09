@@ -6,6 +6,8 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 import { useAppContext } from "@/context/app_context";
 import logo from "../../../public/images/logo.png";
+import icon1 from "../../../public/images/Icon1.png";
+
 
 
 const Header = () => {
@@ -27,10 +29,8 @@ const Header = () => {
         className="hidden items-center gap-2 lg:flex"
       >
         <Image
-          src="/images/icon1.png"
+          src={icon1}
           alt="icon"
-          width={48}
-          height={48}
           priority={true}
         />
 
