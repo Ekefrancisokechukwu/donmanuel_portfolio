@@ -30,7 +30,7 @@ export default function RootLayout({
           <section className="flex  justify-between items-start relative pt-7">
             <SocialMediaLinks />
 
-            <div className="bg-main-pattern max-w-[1080px] bg-cover mx-auto px-4 py-16">
+            <div className="bg-main-pattern max-w-[1080px] md:bg-cover bg-contain  mx-auto px-4 py-16">
               {children}
             </div>
 
