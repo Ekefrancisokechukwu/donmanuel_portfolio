@@ -5,6 +5,8 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
 import { useAppContext } from "@/context/app_context";
+import logo from "../../../public/images/logo.png";
+
 
 const Header = () => {
   const { openMenu } = useAppContext();
@@ -12,10 +14,8 @@ const Header = () => {
     <header className=" justify-between flex items-center sticky w-full top-0 z-20 bg-mainColor/50 backdrop-blur-2xl left-0 py-4 px-4">
       <div className="logo">
         <Image
-          src="/images/logo_mini.png"
+          src={logo}
           alt="logo"
-          width={200}
-          height={200}
           priority={true}
           className="sm:block  sm:w-[256px] w-[132px] h-[29.91px]  sm:h-[56.65px]"
         />
