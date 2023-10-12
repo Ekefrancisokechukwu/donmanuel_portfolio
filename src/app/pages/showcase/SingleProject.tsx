@@ -23,11 +23,11 @@ const SingleProject = ({ project }: Props) => {
           </li>
           <li className="grid md:grid-cols-2  grid-cols-1 gap-y-5  py-7 border-gray-100/20">
             <h4 className="">{project.resultTitle}:</h4>
-            <ol className="font-semibold list-disc">
+            <ul className="font-semibold list-disc pl-[1rem]">
               {project.results.map((result, i) => (
                 <li key={i}>{result} </li>
               ))}
-            </ol>
+            </ul>
           </li>
         </ul>
       </div>
